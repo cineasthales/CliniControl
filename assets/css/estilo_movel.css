@@ -1,0 +1,236 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: #f1d7e9;
+}
+
+#tudo {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #561b44;
+    color: white;
+    padding: 1em;
+}
+
+nav {
+    border-bottom: 0.1em solid #683358;
+    border-left: 0.1em solid #683358;
+    border-right: 0.1em solid #683358;
+    width: 100%;
+    float: left;
+    background-color: #666600;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    border-right: 0.1em solid #561b44;
+    background-color: #8e8e0a;
+}
+
+nav ul li:hover, nav ul li:active {
+    background-color: #892e6d;
+}
+
+main {
+    width: 100%;
+    float: left;
+    padding: 1em;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 1em;
+    background-color: #561b44;
+    color: white;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+a, a:visited {
+    color: #983079;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #e446b4;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;    
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+header a, header a:visited {
+    color: #f87ed4;
+    text-decoration: none;
+}
+
+header a:hover, header a:active {
+    color: #dad924;
+    text-decoration: none;
+}
+
+nav a, nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    float: left;
+}
+
+#logoimg {
+    width: 80%;
+}
+
+#divLogo, #divSessao {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+#divSessao {
+    text-align: right;
+}
+
+h1 {
+    color: #683358;
+    padding: 1em 0 1em 0;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h2 {
+    color: #683358;
+    padding: 0 0 1em 0;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type='text'], input[type='email'], input[type='password'] {    
+    border: 0;
+    border-bottom: 0.1em solid lightslategrey;
+    padding-top: 0.5em;
+    width: 100%;
+}
+
+#btEntrar {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#divEntrar {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#pLogin {
+    text-align: center;
+}
+
+#btcadastrar {
+    width: 75%;
+    padding: 1em;
+}
+
+.alerta_sucesso {
+    padding: 1em;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.alerta_erro {
+    padding: 1em;
+    width: 100%;
+    background-color: lightpink;
+}
+
+#divTable {
+    overflow-x:auto;
+    padding-bottom: 1em;
+}
+
+.asterisco {
+    color: red;
+    font-weight: bold;
+}
+
+table, thead, tbody, th, td, tr {
+    margin: 0;
+    padding: 0;    
+}
+
+th, td {
+    border: 0.1em solid black;
+}
+
+th, td {
+    padding: 0.25em;
+    text-align: center;
+}
+
+small {
+    font-size: 0.75em;
+}
+
+#msgEmail, #msgNomeUsuario, #msgCpf, #msgCnpj {
+    font-size: 0.75em;
+    color: red;
+}
+
+#logradouro, #cidade, #estado {
+    background-color: #e4e4e4;
+}
+
+.dadoFormat {
+    padding-left: 5em;
+}
+
+textarea {
+    resize: none;
+}

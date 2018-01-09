@@ -1,0 +1,14 @@
+@media all AND (min-width:1280px) {
+    #tudo {
+        width: 90%;
+    }
+
+    #logoimg {
+        width: 30%;
+    }
+
+    #divLogin, #divForm {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
